@@ -7,6 +7,7 @@
 </head>
 <body>
     <h1>Daftar Nilai Student Database Advance</h1>
+    <hr>
     <form action="" method="post">
         <label for="nama">Nama:</label>
         <input type="text" id="nama" name="nama" required><br><br>
