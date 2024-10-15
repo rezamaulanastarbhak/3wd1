@@ -21,6 +21,7 @@
         <label for="absen">Presensi</label>
         <input type="number" id="presensi" name="presensi" required><br><br>
         <input type="submit" value="hitung">
+        <input type="reset" value="reset">
         </form>
 
     <?php
