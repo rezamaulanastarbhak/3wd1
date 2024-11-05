@@ -1,0 +1,6 @@
+Buat dua kelas Product
+masing masing di namespace store dan warehouse. 
+
+gunakan use untuk membuat objek dari masing masing tanpa konflik nama. 
+
+gunakan kembali untuk alias dari objek yang berbeda.
