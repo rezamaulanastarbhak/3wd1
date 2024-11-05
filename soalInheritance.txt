@@ -1,0 +1,27 @@
+Buatlah hirarki kelas untuk sistem pegawai dengan spesifikasi berikut:
+
+1.⁠ ⁠Buat kelas Pegawai dengan properti:
+nama
+gajiPokok
+
+Tambahkan metode infoPegawai() yang mencetak informasi pegawai berupa "<nama> memiliki gaji pokok <gajiPokok>".
+
+
+2.⁠ ⁠Buat dua kelas yang meng-extend Pegawai:
+KaryawanTetap, dengan properti tambahan tunjangan.
+Tambahkan metode infoTunjangan() yang mencetak jumlah tunjangan karyawan tetap.
+
+Freelance, dengan properti tambahan jamKerja dan upahPerJam.
+Tambahkan metode hitungGaji() yang mengalikan jamKerja dengan upahPerJam untuk mendapatkan total gaji freelance.
+
+3.⁠ ⁠Buat objek KaryawanTetap dan Freelance, dan panggil masing-masing metode untuk menampilkan informasi pegawai, gaji pokok, tunjangan, serta total gaji freelance berdasarkan jam kerja.
+
+
+Contoh Jawaban yang Diharapkan:
+
+Nama: Ali, Gaji Pokok: 5000000
+Tunjangan: 1000000
+
+Nama: Budi, Gaji Pokok: 0
+Jam Kerja: 50, Upah per Jam: 100000
+Total Gaji: 5000000
