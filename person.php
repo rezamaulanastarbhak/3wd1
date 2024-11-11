@@ -1,19 +1,25 @@
 <?php
+namespace admin;
 class Person{
     // properti
-   var $nama;
-   var $alamat;
-   var $kota; 
+   public $nama;
+   public $alamat;
+   public $kota; 
 
 //    method atau function
-    function __construct($nama, $alamat, $kota){
+    public function __construct($nama, $alamat, $kota){
         $this->nama = $nama;
         $this->alamat = $alamat;
         $this->kota = $kota;
     }
-    function say(){
-        echo "hello ";
+    public function say(){
+        echo "hello <br>";
     }
+
+    public function teriak(){
+        echo "Halloooo, ";
+    }
+
     function set_nama($nama){
         $this->nama = $nama;
     }
@@ -21,6 +27,13 @@ class Person{
         return $this->nama;
     }
 }
+
+namespace user;
+class Person {
+
+}
+
+
 
 
 ?>

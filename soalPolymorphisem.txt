@@ -1,0 +1,6 @@
+Buatlah Class AlatMusik dengan metode bunyi(). Buat dua kelas yang mengimplementasikan interface ini:
+
+Gitar, metode bunyi() harus mengembalikan string "Jreng".
+Drum, metode bunyi() harus mengembalikan string "Dum dum".
+Buat fungsi mainkanMusik(AlatMusik $alat) yang memanggil metode bunyi() pada objek AlatMusik. Buat objek Gitar dan Drum, lalu panggil mainkanMusik() untuk kedua objek.
+
