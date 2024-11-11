@@ -21,9 +21,7 @@ class FrontEnd extends Programmer {
 class Company {
     var Programmer $programmer;
 
-    function sayHello(Programmer $programmer){
-        echo "hello {$programmer->name}";
-    }
+    
 }
 
 $company = new Company();
@@ -31,4 +29,10 @@ $company->programmer = new Programmer("Reza");
 $company->programmer = new BackEnd("Reza"); 
 $company->programmer = new FrontEnd("Reza");
 
-$company->sayHello($company->programmer);
+function sayHello(Programmer $programmer){
+    echo "hello {$programmer->name} <br>";
+}
+
+sayHello(new Programmer("Reza"));
+sayHello(new BackEnd("Reza"));
+sayHello(new FrontEnd("Reza"));
